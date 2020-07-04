@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+//kk
 namespace eShopOnline.WebApp
 {
     public class Startup
@@ -16,7 +16,9 @@ namespace eShopOnline.WebApp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            //ssss
+
+            //eeeee
+
         }
 
         public IConfiguration Configuration { get; }
