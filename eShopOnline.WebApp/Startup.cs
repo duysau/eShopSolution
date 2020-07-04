@@ -16,6 +16,7 @@ namespace eShopOnline.WebApp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            //ssss
         }
 
         public IConfiguration Configuration { get; }
